@@ -1,5 +1,11 @@
+interface IAlphabet {
+    a: number,
+    b:string
+}
 
+const { a, b }: IAlphabet = {
+  a: 10,
+  b: "chhotu"
+};
 
-let a:number = 10
-let b:string = "chhotu"
-console.log("chhotu", a);
+console.log(a,b);
